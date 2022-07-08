@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Drive</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://kit.fontawesome.com/02775699af.js" crossorigin="anonymous"></script>
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">   
+</head>
+<body>
+
+  <!-- Sive navbar -->
+  <div class="sidebar">
+    <div class="logo-details">
+      <span class="logo_name">CG-DOCS</span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="./dashboard.html">
+            <i class="fa-solid fa-arrow-left" ></i>
+            <span class="links_name">Back</span>
+          </a>
+        </li>
+        <li class="favourite">
+          <a href="#">
+            <i class="fa-solid fa-file"></i>
+            <span class="links_name">Files</span>
+          </a>
+        </li>
+        <li>
+            <span class="bootmodel" data-toggle="modal" data-target="#exampleModalCenter">
+          <a href="#" class="active">
+            
+            <i class='bx bx-plus'></i>
+            <span class="links_name">New</span>
+        </span>
+          </a>
+        </li>
+        <li>
+          <a href="./favorite.html">
+            <i class='bx bx-trash' ></i>
+            <span class="links_name">Favorite</span>
+          </a>
+        </li>
+        <li>
+          <a href="./trash.html">
+            <i class='bx bx-trash' ></i>
+            <span class="links_name">Trash</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-log-out'></i>
+           <button id="logout" onclick="logout()"><span class="links_name">Log Out</span></button> 
+          </a>
+        </li>
+      </ul>
+  </div>
+  <!-- Side navbar ends -->
+
+
+  <!-- Modal for uploading a file -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Upload a file</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+         <div id="path"></div>
+
+        </div>
+        <div class="forminput">
+            <input type="file" id="file" placeholder="Enter file name">
+             <button type="button" id="createbtn" onclick="chosenfile()">create</button>
+           </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal for uploading file ends -->
+
+
+  <!-- Home section -->
+  <section class="home-section">
+    <nav>
+      <div class="search-box">
+        <input type="text" id="search" placeholder="Search...">
+        <i class='bx bx-search' onclick="searchitem()"></i>
+      </div>
+      <div class="profile-details">
+        <span class="admin_name" id="admin"></span>
+      </div>
+    </nav>
+              <span class="text">three</span>
+            </div>
+          </div> 
+        </div>
+      </div>
+      
+       <div id="create"> 
+      </div>
+    </div>
+
+    <!-- Modal to show details of file -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">View Details</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <span id ="Owner">Owner:</span>
+            <hr>
+            <span id="documentname"></span>
+            <span id="createdby"></span>
+            <span id="createdAt"></span>
+            <hr>
+            <span id="fileid"></span>
+            <hr>
+            <span id="size"></span> 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal ends -->
+    
+  </section>
+  <!-- Home section ends -->
+
+
+  </body>
+<script src="file.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+ <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</html>

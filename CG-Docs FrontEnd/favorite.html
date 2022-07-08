@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Drive</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+     <script src="https://kit.fontawesome.com/02775699af.js" crossorigin="anonymous"></script>
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">   
+</head>
+<body>
+
+  <!-- Side navbar -->
+  <div class="sidebar">
+    <div class="logo-details">
+      <span class="logo_name">CG-DOCS</span>
+    </div>
+      <ul class="nav-links">
+      <li>
+      <a href="./dashboard.html" class="active">
+        <i class="fa-solid fa-arrow-left"></i>
+        <span class="links_name">Back</span>
+    </span>
+      </a>
+    </li>
+    <li>
+      <a href="./recent.html" class="active">
+        <i class="fa-solid fa-clock"></i>
+        <span class="links_name">Recent</span>
+    </span>
+      </a>
+    </li>
+    <li class="favourite">
+      <a href="#" class="active ">
+        <i class="fa-solid fa-heart-circle-plus"></i>
+        <span class="links_name" id="fav">Favourite</span>
+    </span>
+      </a>
+    </li>
+        <li>
+          <a href="./trash.html">
+            <i class='bx bx-trash' ></i>
+            <span class="links_name">Trash</span>
+          </a>
+        </li>
+        <li>
+          <a href="./home.html">
+            <i class='bx bx-log-out'></i>
+            <button class="links_name" id="logout" onclick="deleteSession()"><span class="links_name">Log Out</span></button>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <!-- Side nav ends -->
+
+  <!-- Home section -->
+  <section class="home-section">
+    <nav>
+      <div class="search-box">
+        <input type="text" id="search" placeholder="Search...">
+        <i class='bx bx-search' onclick="searchitem()"></i>
+      </div>
+      <div class="profile-details">
+        <span class="admin_name" id="admin"></span>
+      </div>
+    </nav>
+
+              <span class="text">three</span>
+            </div>
+          </div> 
+        </div>
+      </div>
+
+       <!-- Modal to show folder details -->
+       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">View Details</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <span id ="Owner">Owner:</span>
+              <hr>
+              <span id="foldername"></span>
+              <hr>
+              <span id="createdby"></span>
+              <span id="createdAt"></span>
+              <hr>
+              <span id="folderid"></span>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal ends -->
+
+      <div class="sales-boxes">
+       <div id="create">
+           
+       </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Home sention ends -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+</body>
+<script src="./favorite.js"></script>
+</html>

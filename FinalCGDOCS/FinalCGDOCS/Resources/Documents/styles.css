@@ -1,0 +1,78 @@
+div
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+     /* margin-top: 50px; */
+
+
+}
+.div1
+{
+   
+    height : 400px;
+    width: 400px;
+    background-color: red;
+    margin-top: 100px;
+     /* position :absolute;
+    border-radius: 50%;  */
+
+}
+ .div2
+{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    background-color: orange;
+    
+ /* top: 25px;
+    //left: 25px; 
+    border-radius: 50%; */
+
+}
+
+.div3
+{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    border-radius: 50%;
+    /* top: 25px;
+    left: 25px; */
+}
+.div4
+{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+    border-radius: 50%;
+    /* top: 25px;
+    left: 25px; */
+}
+
+.div5
+{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    border-radius: 50%;
+    /* top: 25px;
+    left: 25px; */
+}
+.div6
+{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    /* top: 25px;
+    left :25px; */
+
+}
+
+ 

@@ -1,0 +1,14 @@
+D:\C#\FinalCGDOCS\FinalCGDOCS\bin\Debug\netcoreapp2.1\FinalCGDOCS.deps.json
+D:\C#\FinalCGDOCS\FinalCGDOCS\bin\Debug\netcoreapp2.1\FinalCGDOCS.runtimeconfig.json
+D:\C#\FinalCGDOCS\FinalCGDOCS\bin\Debug\netcoreapp2.1\FinalCGDOCS.runtimeconfig.dev.json
+D:\C#\FinalCGDOCS\FinalCGDOCS\bin\Debug\netcoreapp2.1\FinalCGDOCS.dll
+D:\C#\FinalCGDOCS\FinalCGDOCS\bin\Debug\netcoreapp2.1\FinalCGDOCS.pdb
+D:\C#\FinalCGDOCS\FinalCGDOCS\obj\Debug\netcoreapp2.1\FinalCGDOCS.csprojAssemblyReference.cache
+D:\C#\FinalCGDOCS\FinalCGDOCS\obj\Debug\netcoreapp2.1\FinalCGDOCS.csproj.CoreCompileInputs.cache
+D:\C#\FinalCGDOCS\FinalCGDOCS\obj\Debug\netcoreapp2.1\FinalCGDOCS.RazorAssemblyInfo.cache
+D:\C#\FinalCGDOCS\FinalCGDOCS\obj\Debug\netcoreapp2.1\FinalCGDOCS.RazorAssemblyInfo.cs
+D:\C#\FinalCGDOCS\FinalCGDOCS\obj\Debug\netcoreapp2.1\FinalCGDOCS.AssemblyInfoInputs.cache
+D:\C#\FinalCGDOCS\FinalCGDOCS\obj\Debug\netcoreapp2.1\FinalCGDOCS.AssemblyInfo.cs
+D:\C#\FinalCGDOCS\FinalCGDOCS\obj\Debug\netcoreapp2.1\FinalCGDOCS.RazorTargetAssemblyInfo.cache
+D:\C#\FinalCGDOCS\FinalCGDOCS\obj\Debug\netcoreapp2.1\FinalCGDOCS.dll
+D:\C#\FinalCGDOCS\FinalCGDOCS\obj\Debug\netcoreapp2.1\FinalCGDOCS.pdb

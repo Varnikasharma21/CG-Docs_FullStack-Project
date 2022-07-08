@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CG-DOCS</title>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"/>
+  </head>
+  <body>
+
+
+    <!-- Header starts -->
+    <header id="header" class="header fixed-top">
+      <div class="d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <span id="heading">CG-Docs</span>
+        </a>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto" href="./home.html">Home</a></li>
+            <li><a class="nav-link scrollto" href="#">Login</a></li>
+            <li>
+              <a class="nav-link scrollto" href="./signup.html">Register</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+      </div>
+    </header>
+    <!-- Header ends -->
+
+
+    <section class="vh-100">
+      <div class="container py-5 h-100">
+        <div class="row d-flex align-items-center justify-content-center h-100">
+
+          <!-- Image section starts -->
+          <div class="col-md-8 col-lg-7 col-xl-6">
+            <img
+              src="https://img.freepik.com/free-vector/employer-meeting-job-applicant-pre-employment-assessment-employee-evaluation-assessment-form-report-performance-review-concept-illustration_335657-2058.jpg?t=st=1656479815~exp=1656480415~hmac=4455059021cd1b44bed67e147324949564d24cbad3af365d19c5d203455d4a40&w=740"
+              class="img-fluid"
+              alt="Phone image" />
+          </div>
+          <!-- Image section Ends -->
+
+
+          <!-- Login section starts -->
+          <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+            <form>
+              <div class="form-outline mb-4">
+                <input
+                  type="text"
+                  id="users"
+                  placeholder="User Name"
+                  class="form-control form-control-lg bg-white border-md"/>
+              </div>
+
+              <div class="form-outline mb-4">
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Password"
+                  class="form-control form-control-lg"/>
+              </div>
+
+              <div
+                class="d-flex justify-content-around align-items-center mb-4">
+                <div class="form-check">
+                  
+                  <label class="form-check-label" for="form1Example3">
+                    
+                  </label>
+                </div>
+                <a href="#!"></a>
+              </div>
+
+              <button
+                type="button"
+                class="btn btn-primary btn-lg btn-block"
+                onclick="checkUser()"
+                style="background-color: #773efa">
+                Log in
+              </button>
+
+              <div class="divider d-flex align-items-center my-4">
+                <p class="text-center fw-bold mx-3 mb-0 text-muted">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR
+                </p>
+              </div>
+
+              <a
+                class="btn btn-primary btn-lg btn-block"
+                style="background-color: #773efa"
+                href="./signup.html"
+                role="button">
+                <i class="fab fa-facebook-f me-2"></i>New? Register Now</a>
+              
+            </form>
+          </div>
+          <!-- Login section ends -->
+
+          
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="./login.js"></script>
+</html>
